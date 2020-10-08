@@ -1,0 +1,40 @@
+body {
+  font-family:'Sansita Swashed', cursive;
+}
+
+
+.forecast {
+  margin: 12px;
+}
+
+.jumbotron {
+  background-color: #ff3c00;
+  color: #C0C0C0;
+  text-align: center;
+  padding: 10px;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+
+#city-date-icon,
+#city-name,
+#current-icon {
+    display: flex;
+}
+
+h6 {
+  font-variant: normal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
+
+h4 {
+    margin: 20px;
+}
+
+#forecast-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center/space-between;
+}
