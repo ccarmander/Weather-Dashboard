@@ -105,10 +105,10 @@ function populateCityWeather(city, citySearchList) {
 
             console.log(forecast.list[i].weather[0].icon);
 
-            $("#forecast-temperature" + forecastPosition).text(
+            $("#forecastTemperature" + forecastPosition).text(
               "Temperature: " + forecast.list[i].main.temp + " °F"
             );
-            $("#forecast-humidity" + forecastPosition).text(
+            $("#forecastHumidity" + forecastPosition).text(
               "Humidity: " + forecast.list[i].main.humidity + "%"
             );
 
