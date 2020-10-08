@@ -8,12 +8,15 @@ body {
 }
 
 .jumbotron {
-  background-color: #ff3c00;
-  color: #C0C0C0;
+  color: orangered;
+  background-image: url('https://t3.ftcdn.net/jpg/02/11/52/42/360_F_211524227_Ett8aboQvVnROAFtqu3S1pW99Y3Th9vm.jpg');
+  background-size: cover;
   text-align: center;
   padding: 10px;
   font-weight: bolder;
   font-style: italic;
+  
+
 }
 
 
@@ -38,3 +41,4 @@ h4 {
     flex-direction: row;
     justify-content: center/space-between;
 }
+
